@@ -131,6 +131,24 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imgStatus"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:visibility="gone" />
+
+
             <LinearLayout
                 android:id="@+id/layoutSocialLogin"
                 android:layout_width="wrap_content"
