@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Aplicacion_huella_dactilar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@mipmap/ic_launcher</item>
+    </style>
+
+    <style name="Theme.Aplicacion_huella_dactilar" parent="Base.Theme.Aplicacion_huella_dactilar" />
+</resources>
